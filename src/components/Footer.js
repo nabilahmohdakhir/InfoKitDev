@@ -28,7 +28,7 @@ export const Footer = () => {
               
             </div>
             </Container>
-            <p>Developed By Nabilah Mohd Akhir (●'◡'●)</p>
+            <p>Nabilah Mohd Akhir (●'◡'●)</p>
           </Col>
         </Row>
       </Container>
