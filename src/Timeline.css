@@ -42,6 +42,8 @@
 
 .timeline-content p {
   color: #666666;
+  text-align: left;
+  margin: 0;
 }
 
 /* Additional styling for responsiveness */
