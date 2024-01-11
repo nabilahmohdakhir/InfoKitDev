@@ -54,8 +54,11 @@ export const Location = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
+              <div className="bear">
                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+              </div>
               }
+              
             </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
@@ -96,22 +99,12 @@ export const Location = () => {
                     <h6>Feel free to reach out to :</h6>
                     
                     <Col size={12} sm={12} className="px-1">
-                      <div className='social-icon'>
-                      
-                        <figure>
-                        <a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Faridz" /></a>
-                        <figcaption>Faridz</figcaption>
-                        </figure>
-          
-                        <figure>
-                        <a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a>
-                        <figcaption>Sharil</figcaption>
-                        </figure>
-                        
+                    <div className="social-icon">         
+                      <figcaption><a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Faridz" /></a> Faridz</figcaption>
+
+                      <figcaption><a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a> Sharil</figcaption>
                       </div>
-                      </Col>
-                      
-                      
+                      </Col>                   
                     
                     </Col>
                   </Row>
