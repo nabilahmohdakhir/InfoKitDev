@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/logo-bear.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import navIcon1 from "../assets/img/icons8-whatsapp (2).svg";
+import wazeIcon1 from "../assets/img/waze-white.png";
+import gmapIcon1 from "../assets/img/google-maps.svg";
 
 export const Location = () => {
   const formInitialDetails = {
@@ -66,19 +70,21 @@ export const Location = () => {
                     </Col>
 
                     <Col size={12} sm={12} className="px-1">
-                      <p><b>Waze :</b></p>
-                      <p>Link Cherengin Resort</p>
-                      <a href="https://waze.com/ul/hw286vybeu">Click here</a>
+                      <div className="social-icon">
+                      
+                      <a href="https://waze.com/ul/hw286vybeu"><img src={wazeIcon1} alt="Waze" /></a>
+                      <a href="https://maps.app.goo.gl/F5PbUvcEQKkvduBE9?g_st=ic"><img src={gmapIcon1} alt="gmap" /></a>
+
+                      </div>
+                      <br></br>
+                    
                     </Col>
-                    <Col size={12} sm={12} className="px-1">
-                      <p><b>Google Maps:</b></p>
-                      <p>Link Cherengin Resort</p>
-                      <a href="https://maps.app.goo.gl/F5PbUvcEQKkvduBE9?g_st=ic">Click here</a>
-                     
-                    </Col>
+                    
 
                     <Col size={12} sm={12} className="px-1">
+                    <br></br>
                       <b>Full Address:</b>
+                      <br></br>
                       <p>Lot 5540 & 5936,28750 Janda Baik, Bentong, Pahang Darul Makmur,Malaysia</p>
                     </Col>
                     
@@ -88,7 +94,25 @@ export const Location = () => {
                     <p>Day route</p>
 
                     <h6>Feel free to reach out to :</h6>
-                    <a href="https://wa.link/t4rdxl">Belle Test Test</a>
+                    
+                    <Col size={12} sm={12} className="px-1">
+                      <div className='social-icon'>
+                      
+                        <figure>
+                        <a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Faridz" /></a>
+                        <figcaption>Faridz</figcaption>
+                        </figure>
+          
+                        <figure>
+                        <a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a>
+                        <figcaption>Sharil</figcaption>
+                        </figure>
+                        
+                      </div>
+                      </Col>
+                      
+                      
+                    
                     </Col>
                   </Row>
                 </form>
