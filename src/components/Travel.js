@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/Untitled design.png";
+import projImg2 from "../assets/img/check-out.png";
+import carpool from "../assets/img/carpool.png";
+import solo from "../assets/img/solo driver.png";
+import buffet from "../assets/img/buffet.png";
+import bbq from "../assets/img/BBQ.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,12 +30,12 @@ export const Travel = () => {
     {
       title: "Carpool",
       description: "Cash alert! Carpool champs, collect your RM 130 at check-in.",
-      imgUrl: projImg1,
+      imgUrl: carpool,
     },
     {
       title: "Solo Driver",
       description: "You're not left out—you get your RM 130  too! Just keep it cool on the road; no subsidies for speeding tickets!",
-      imgUrl: projImg2,
+      imgUrl: solo,
     },
   
   ];
@@ -41,12 +44,12 @@ export const Travel = () => {
     {
       title:"Buffet Bliss",
       description: "Get ready to feast! All your meals are at the hotel café—breakfast, lunch, and dinner. Buffet style, because who doesn’t love a foodie party?",
-      imgUrl: projImg2,
+      imgUrl: buffet,
     },
     {
       title:"BBQ Dinner",
       description: "Enjoy your BBQ Dinner on 20 Jan! Head over to Cafe XXXXX for some seriously tasty eats and good vibes. Let's grub and have a blast! 🍔🎉",
-      imgUrl: projImg2,
+      imgUrl: bbq,
     }
   ];
 
