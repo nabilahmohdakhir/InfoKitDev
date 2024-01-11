@@ -1,10 +1,14 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/logo-bear.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import navIcon1 from "../assets/img/icons8-whatsapp (2).svg";
+import wazeIcon1 from "../assets/img/waze-white.png";
+import gmapIcon1 from "../assets/img/google-maps.svg";
 
-export const Contact = () => {
+export const Location = () => {
   const formInitialDetails = {
     firstName: '',
     lastName: '',
@@ -50,8 +54,11 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
+              <div className="bear">
                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+              </div>
               }
+              
             </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
@@ -66,19 +73,21 @@ export const Contact = () => {
                     </Col>
 
                     <Col size={12} sm={12} className="px-1">
-                      <p><b>Waze :</b></p>
-                      <p>Link Cherengin Resort</p>
-                      <a href="https://waze.com/ul/hw286vybeu">Click here</a>
+                      <div className="social-icon">
+                      
+                      <a href="https://waze.com/ul/hw286vybeu"><img src={wazeIcon1} alt="Waze" /></a>
+                      <a href="https://maps.app.goo.gl/F5PbUvcEQKkvduBE9?g_st=ic"><img src={gmapIcon1} alt="gmap" /></a>
+
+                      </div>
+                      <br></br>
+                    
                     </Col>
-                    <Col size={12} sm={12} className="px-1">
-                      <p><b>Google Maps:</b></p>
-                      <p>Link Cherengin Resort</p>
-                      <a href="https://maps.app.goo.gl/F5PbUvcEQKkvduBE9?g_st=ic">Click here</a>
-                     
-                    </Col>
+                    
 
                     <Col size={12} sm={12} className="px-1">
+                    <br></br>
                       <b>Full Address:</b>
+                      <br></br>
                       <p>Lot 5540 & 5936,28750 Janda Baik, Bentong, Pahang Darul Makmur,Malaysia</p>
                     </Col>
                     
@@ -88,13 +97,16 @@ export const Contact = () => {
                     <p>Day route</p>
 
                     <h6>Feel free to reach out to :</h6>
-                    <a href="https://wa.link/t4rdxl">Belle Test Test</a>
+                    
+                    <Col size={12} sm={12} className="px-1">
+                    <div className="social-icon">         
+                      <figcaption><a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Faridz" /></a> Faridz</figcaption>
+
+                      <figcaption><a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a> Sharil</figcaption>
+                      </div>
+                      </Col>                   
+                    
                     </Col>
-
-
-                    
-                    
-                    
                   </Row>
                 </form>
               </div>}

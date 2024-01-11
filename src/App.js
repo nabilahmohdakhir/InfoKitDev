@@ -3,10 +3,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
+import { Housekeeping } from "./components/Housekeeping";
 import { Tentative } from "./components/Tentative";
-import { Contact } from "./components/Contact";
+import { Location } from "./components/Contact";
 import React from 'react';
+import {CICO} from "./components/CICO"
+import {Travel} from "./components/Travel"
 
 import { Footer } from "./components/Footer";
 
@@ -15,10 +17,14 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
+      <Housekeeping />
+      <br></br>
+      <br></br>
+      
+      <Travel/>
       <Tentative />
 
-      <Contact />
+      <Location/>
       <Footer />
     </div>
   );
