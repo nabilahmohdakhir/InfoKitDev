@@ -203,7 +203,7 @@ export const Tentative = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="tentative" id="tentative">
       <Container>
         <Row>
           <Col size={12}>
@@ -212,7 +212,7 @@ export const Tentative = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Tentative</h2>
                 <p></p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Tab.Container id="tentative-tabs" defaultActiveKey="first">
 
                   {/* Tab Bar */}
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
