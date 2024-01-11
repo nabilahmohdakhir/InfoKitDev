@@ -4,7 +4,7 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Contact = () => {
+export const Location = () => {
   const formInitialDetails = {
     firstName: '',
     lastName: '',
@@ -90,11 +90,6 @@ export const Contact = () => {
                     <h6>Feel free to reach out to :</h6>
                     <a href="https://wa.link/t4rdxl">Belle Test Test</a>
                     </Col>
-
-
-                    
-                    
-                    
                   </Row>
                 </form>
               </div>}
