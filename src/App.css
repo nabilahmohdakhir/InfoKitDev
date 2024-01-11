@@ -115,7 +115,7 @@ span.navbar-text {
 }
 .social-icon {
     display: inline-block;
-    margin-left: 14px;
+    margin-left: 0px;
 }
 .social-icon a {
     width: 42px;
@@ -124,6 +124,7 @@ span.navbar-text {
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
+    margin-bottom: 6px;
     align-items: center;
     justify-content: center;
     line-height: 1;
@@ -284,6 +285,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  width: 115%;
+  height: auto;
 }
 @keyframes updown {
     0% {
@@ -368,7 +371,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%; 
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -403,15 +406,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 55px 0px 0px 0px;
 }
 .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 0px 0;
 }
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+  border-radius: 0px 0px 0px 55px;
+}
+.nav-link#projects-tabs-tab-fourth {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 0px 55px 0;
 }
 .proj-imgbx {
   position: relative;
@@ -472,7 +479,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 0 200px 0;
 }
 .contact img {
-  width: 92%;
+  width: 50%;
 }
 .contact h2 {
 	font-size: 45px;

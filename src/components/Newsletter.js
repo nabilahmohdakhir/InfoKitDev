@@ -25,15 +25,12 @@ export const Newsletter = ({ status, message, onValidated }) => {
       <Col lg={12}>
         <div className="newsletter-bx wow slideInUp">
           <Row>
-            <Col lg={12} md={6} xl={5}>
-              
-              <p>Joining the team building is a breeze. Navigate your way to <b>Cherengin Hills Convention & Spa Resort</b></p>
-
-            </Col>
-            <Col md={6} xl={7}>
-            <h3>How to get there?<br></br></h3>
+            
+            <Col md={6} xl={12}>
+            <h3>NAK BUANGGGGG <br></br></h3>
             <div className="address">
-                  <p>Pahang</p>
+                  <p>Alright, so here's the lowdown: You're the boss of your roommate situation! Feelin' like you want a partner in crime? Go ahead and pick your roomie.</p>
+                   <p>But hey, if you're riding solo and thinking, "Who's gonna be my bunkmate?" – no sweat! Just shoot a message to the committee, and they'll play matchmaker for you. Easy-peasy, right? 🤜🤛</p>
                 </div>
             
             
