@@ -4,8 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Housekeeping } from "./components/Housekeeping";
-import { Projects } from "./components/Projects";
+import { Tentative } from "./components/Tentative";
 import { Location } from "./components/Contact";
+import React from 'react';
 import {CICO} from "./components/CICO"
 import {Travel} from "./components/Travel"
 
@@ -21,7 +22,7 @@ function App() {
       <br></br>
       
       <Travel/>
-      <Projects />
+      <Tentative />
 
       <Location/>
       <Footer />
