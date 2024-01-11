@@ -5,6 +5,7 @@
   flex-direction: column;
   max-width: 600px;
   margin: 50px auto;
+  ;
 }
 
 .timeline-event {
@@ -15,6 +16,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  
 }
 
 .timeline-event:hover {
@@ -25,7 +27,8 @@
   width: 100px;
   font-weight: bold;
   padding: 16px;
-  background-color: #3498db;
+  background: linear-gradient(90.21deg, #FF4066 -5.91%, #FFF16A 111.58%);
+  /*background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);*/
   color: #ffffff;
   text-align: center;
 }
@@ -33,17 +36,20 @@
 .timeline-content {
   flex: 1;
   padding: 16px;
+  font-size: 10 px;
 }
 
 .timeline-content h3 {
   margin-top: 0;
   color: #333333;
+  font-size: 15px;
 }
 
 .timeline-content p {
   color: #666666;
   text-align: left;
   margin: 0;
+  font-size: 13px;
 }
 
 /* Additional styling for responsiveness */

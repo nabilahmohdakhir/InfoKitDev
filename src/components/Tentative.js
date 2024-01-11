@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+
+//import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import React from 'react';
 import '../Timeline.css';
@@ -285,7 +286,7 @@ export const Tentative = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      
     </section>
   )
 }
