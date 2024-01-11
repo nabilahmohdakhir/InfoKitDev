@@ -50,10 +50,6 @@ export const Travel = () => {
     }
   ];
 
- 
-
-
-
   return (
     <section className="project" id="projects">
       <Container>
@@ -65,6 +61,7 @@ export const Travel = () => {
                 <h2>Highlights!</h2>
                 <p></p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
+
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Check-In / Check-Out</Nav.Link>
@@ -79,7 +76,9 @@ export const Travel = () => {
                       <Nav.Link eventKey="fourth">Roomie Arrangement</Nav.Link>
                     </Nav.Item>
                   </Nav>
+
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
@@ -94,6 +93,7 @@ export const Travel = () => {
                         }
                       </Row>
                     </Tab.Pane>
+
                     <Tab.Pane eventKey="second">
                       
                       <Row>
@@ -109,6 +109,7 @@ export const Travel = () => {
                         }
                       </Row>
                     </Tab.Pane>
+                    
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
