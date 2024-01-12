@@ -76,7 +76,7 @@ export const Housekeeping = () => {
                                 <p>Dive into the joy! With many new faces around, this is the time to connect, laugh, and make friends. To the newbies, it's your moment—embrace the fun!</p>
                             </div>
                         </Carousel>
-                        <p>🌟🧹 #TeamClean #HousekeepingReminder #TeamEffort</p>
+                        <p>🌟🧹 #TeamClean #HousekeepingReminder #TeamEffort # TeamHealing #KerusiHealingJanganLupa</p>
                     </div>
                 </div>
             </div>

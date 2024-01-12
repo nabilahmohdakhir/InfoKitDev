@@ -41,9 +41,9 @@ export const Tentative = () => {
       id: 4,
       date: '1000',
       title: 'Activity',
-      location:'Museum Seni Kraf (Main)',
+      location:'National Museum, Orang Asli Crafts Museum  ',
       outfit:'Casual',
-      description: 'Activity with Museum Seni Kraf is the main venue, but feel free to explore Museum Dunia Teknologi Dunia Melayu and Orang Asli',
+      description: 'The main event is hanging out at the National Museum, Orang Asli Crafts Museum , but feel free to explore National Museum, and Malay World Ethnology Museum',
       
     },
     {
