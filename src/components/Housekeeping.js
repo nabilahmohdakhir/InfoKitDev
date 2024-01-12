@@ -46,23 +46,23 @@ export const Housekeeping = () => {
                             <div className="item">
                                 
                                 <h5>Chill Roomie Code</h5>
-                                <p>Roomie love time! Keep your space cool, and let's not turn our rooms into a late-night dance club 🕺💃 after 11 PM. Ghosts need their beauty sleep too, you know?</p>
+                                <p>Roomie love time! Keep your space cool, and let's not turn our rooms into a late-night dance club after 11 PM. Ghosts need their beauty sleep too, you know?</p>
                             </div>
                             
                             <div className="item">
                                 
                                 <h5>Punctuality</h5>
-                                <p>It's time to party, so let's keep it on schedule! ⏲️ No fashionably late entries; 🚫</p>
+                                <p>It's time to party, so let's keep it on schedule! No fashionably late entries;</p>
                             </div>
                             <div className="item">
                                 
                                 <h5>Socializing & leisure activities</h5>
-                                <p>You're also invited to "healing" with your bestie at the hilltop, by the pool , or relax by the lake 🏞️ </p>
+                                <p>You're also invited to "healing" with your bestie at the hilltop, by the pool , or relax by the lake </p>
                             </div>
                             <div className="item">
                                 
                                 <h5>Shush, No Noise Please</h5>
-                                <p>Psst...keep it down! We're not aiming for the loud neighbors award. BNM's got a cool reputation 💁‍♀️ to uphold, peeps! Let's keep the noise in check and maintain our awesomeness.</p>
+                                <p>Psst...keep it down! We're not aiming for the loud neighbors award. BNM's got a cool reputation to uphold, peeps! Let's keep the noise in check and maintain our awesomeness.</p>
                             </div>
                             <div className="item">
                                 
