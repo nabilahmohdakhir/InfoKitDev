@@ -6,8 +6,9 @@ import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+import '../AdditionalCost.css';
 
-export const additionalcost = () => {
+export const Additionalcost = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -36,7 +37,7 @@ export const additionalcost = () => {
                     <div className="addcost-bx wow zoomIn">
                         <h2>Additional Costs</h2>
                         <p>Hey Team, just a heads up :</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme housekeeping-slider">
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme additionalcost-slider">
                             <div className="item">
                                 
                                 <h5>Hotel Deal</h5>

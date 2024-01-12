@@ -47,9 +47,10 @@
 
 .timeline-content p {
   color: #666666;
-  text-align: left;
+  text-align: justify;
   margin: 0;
   font-size: 13px;
+  
 }
 
 /* Additional styling for responsiveness */

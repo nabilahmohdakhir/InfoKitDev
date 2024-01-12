@@ -1,0 +1,54 @@
+/************ add Css ************/
+.addcost {
+    padding: 0 0 50px 0;
+    position: relative;
+  }
+  .addcost-bx {
+    background: linear-gradient(90.21deg, #FF4066 -5.91%, #FFF16A 111.58%);;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+    justify-content: center;
+   
+  }
+
+  .react-multi-carousel-list {
+    background: linear-gradient(90.21deg, #FF4066 -5.91%, #FFF16A 111.58%);;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+    justify-content: center;
+    
+  }
+
+
+
+  .addcost h2 {
+      font-size: 45px;
+      font-weight: 700;
+  }
+  .addcost p {
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .addcost-slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .addcost-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }

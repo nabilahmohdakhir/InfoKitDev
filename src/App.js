@@ -11,6 +11,7 @@ import React from 'react';
 import {Highlights} from "./components/Travel"
 
 import { Footer } from "./components/Footer";
+import {Additionalcost} from "./components/addcost"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       
       <Highlights/>
       <Tentative />
+      <Additionalcost/>
 
       <Location/>
       <Footer />
