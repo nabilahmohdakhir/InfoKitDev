@@ -12,7 +12,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Travel = () => {
+export const Highlights = () => {
 
   const projects = [
     {
@@ -100,37 +100,33 @@ export const Travel = () => {
                     <Tab.Pane eventKey="second">
                       
                       <Row>
-                        {
-                          travelClaim.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
+                      <p><b>Carpool</b></p>
+                        <p>Cash alert! Carpool champs, get your driver to collect their RM 120 at check-in!</p>
+                        
+                        <p><b>Solo Driver</b></p>
+                        <p>You're not left out—you get your RM 130 too! Just keep it cool on the road; no subsidies for speeding tickets!</p>
+                        
                       </Row>
                     </Tab.Pane>
                     
                     <Tab.Pane eventKey="third">
                     <Row>
-                        {
-                          foodInfo.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
+                        <p><b>Buffet Bliss</b></p>
+                        <p>Get ready to feast! All your meals are at the hotel café—breakfast, lunch, and dinner. Buffet style, because who doesn’t love a foodie party?</p>
+                        
+                        <p><b>BBQ Dinner</b></p>
+                        <p>Enjoy your BBQ Dinner on 20 Jan! Head over to BBQ Lounge for some serious tasty eats and good vibes. Let's grub and have a blast! 🍔🎉</p>
+                        
+                        
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
                     <Row>
                         <p>Alright, so here's the lowdown: You're the boss of your roommate situation! Feelin' like you want a partner in crime? Go ahead and pick your roomie.</p>
+                        
                         <p>But hey, if you're riding solo and thinking, "Who's gonna be my roomie?" – no sweat! Just shoot a message to the committee, and they'll play matchmaker for you. Easy-peasy, right? 🤜🤛</p>
+
+                        <p>If you've got a roomate, just give the committee the deets on your buddy. That way, we can figure out who's flying solo and pair them up with someone in need of a partner!</p>
                       </Row>
                     </Tab.Pane>
                   </Tab.Content>

@@ -7,8 +7,8 @@ import { Housekeeping } from "./components/Housekeeping";
 import { Tentative } from "./components/Tentative";
 import { Location } from "./components/Contact";
 import React from 'react';
-import {CICO} from "./components/CICO"
-import {Travel} from "./components/Travel"
+
+import {Highlights} from "./components/Travel"
 
 import { Footer } from "./components/Footer";
 
@@ -21,7 +21,7 @@ function App() {
       <br></br>
       <br></br>
       
-      <Travel/>
+      <Highlights/>
       <Tentative />
 
       <Location/>

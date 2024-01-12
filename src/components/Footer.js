@@ -33,6 +33,7 @@ export const Footer = () => {
         <Row className="align-items-center">
         <Col size={12} sm={12} className="text-center text-sm-center">
           <p> <em>Nabilah Mohd Akhir (●'◡'●)</em></p>
+          <p> <em>Github Source Code //disabled</em></p>
           </Col>
           </Row>
       </Container>

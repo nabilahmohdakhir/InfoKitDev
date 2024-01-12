@@ -41,9 +41,9 @@ export const Tentative = () => {
       id: 4,
       date: '1000',
       title: 'Activity',
-      location:'Museum Seni Kraf',
+      location:'Museum Seni Kraf (Main)',
       outfit:'Casual',
-      description: 'Activity with Museum Seni Kraf',
+      description: 'Activity with Museum Seni Kraf is the main venue, but feel free to explore Museum Dunia Teknologi Dunia Melayu and Orang Asli',
       
     },
     {
@@ -68,23 +68,23 @@ export const Tentative = () => {
       title: 'Outdoor Activities',
       location:'Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
-      description: [<li>ATV : Tribe 3 & 4 </li>,<li>Paintball : Tribe 1 & 2</li>]
+      description: [<li>ATV (ATV Janda Baik) : Temuan & Kanaq </li>,<li>Paintball (SWAT Paintball Janda Baik) : Jah-Hut VS Senoi</li>]
     },
     {
       id: 8,
       date: '1700',
       title: 'Indoor Activities',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
-      description: "Board Games: Tribe 5 & 6"
+      description: "Board Games: Semelai VS Temoq"
     },
     {
       id: 8,
       date: '1930',
       title: 'BBQ Dinner',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'BBQ Lounge, Cherengin Hills Convention & Spa Resort',
       outfit:'Casual',
-      description: ""
+      description: "Raise your flag"
     },
     // Add more events as needed
   ];
@@ -96,7 +96,7 @@ export const Tentative = () => {
       title: 'Breakfast',
       location:'Cherengin Hills Convention & Spa Resort',
       outfit:'Casual',
-      description: '',
+      description: 'Indoor cafe',
       
     },
     {
@@ -105,7 +105,7 @@ export const Tentative = () => {
       title: 'Outdoor Activities',
       location:'Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
-      description: [<li>ATV : Tribe 3 & 4 </li>,<li>Paintball : Tribe 1 & 2</li>]
+      description: [<li>ATV : Temuan & Kanaq </li>,<li>Paintball : Jah-Hut & Senoi</li>]
       
     },
     {
@@ -190,7 +190,7 @@ export const Tentative = () => {
       title: 'Team Building Closing Ceremony & Culture Talk',
       location:'Hall, Cherengin Hills Convention & Spa Resort',
       outfit:'Casual',
-      description: 'Special Guest : Hsin Ying ',
+      description: '',
     },
     {
       id: 3,
