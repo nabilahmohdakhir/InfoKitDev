@@ -48,7 +48,7 @@ export const Location = () => {
   };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact" id="location">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
@@ -70,14 +70,28 @@ export const Location = () => {
                   <Row>
                     <Col size={12} sm={12} className="px-1">
                       <p>Navigate your way to <b>Cherengin Hills Convention & Spa Resort</b></p>
+
+                      <p>We advice you to designate <b>Balai Polis Bukit Tinggi</b> route as your primary path initially , and during your journey, you can reset back to the actual destination. </p>
+
+
                     </Col>
 
                     <Col size={12} sm={12} className="px-1">
                       <div className="social-icon">
                       
+                      <p>Actual Destination : <b>Cherengin Hills Convention & Spa Resort</b></p>
                       <a href="https://waze.com/ul/hw286vybeu"><img src={wazeIcon1} alt="Waze" /></a>
                       <a href="https://maps.app.goo.gl/F5PbUvcEQKkvduBE9?g_st=ic"><img src={gmapIcon1} alt="gmap" /></a>
 
+                      <br></br>
+                      <p><b>Suggested Route Plan</b> : Balai Polis Bukit Tinggi</p>
+                      <a href="https://www.waze.com/ms/live-map/directions/balai-polis-bukit-tinggi-jalan-bukit-tinggi-bentong?to=place.w.66715681.667287887.1128428"><img src={wazeIcon1} alt="Waze" /></a>
+                      <a href="https://www.google.com/maps/dir/3.151897,101.692904/balai+polis+bukit+tinggi/@3.2534793,101.5832894,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x31cc170400000001:0x6ccfed2462f9fa9a!2m2!1d101.8212522!2d3.3488132?entry=ttu"><img src={gmapIcon1} alt="gmap" /></a>
+
+
+
+                      
+                      
                       </div>
                       <br></br>
                     
@@ -92,13 +106,9 @@ export const Location = () => {
                     </Col>
                     
                     <Col size={12} sm={12} className="px-1">
-                    <b>Important Notes:</b>
-                    <p>Night route :</p>
-                    <p>Day route</p>
-                    <br></br>
-                    <br></br>
+                    
 
-                    <h6>Feel free to reach out to :</h6>
+                    <h6>If you have any questions, please get in touch with :</h6>
                     
                     <Col size={12} sm={12} className="px-1">
                     <div className="social-icon">         
