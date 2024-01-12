@@ -235,11 +235,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/06.png');
+  background-image: url('./assets/img/color-sharp.png'),url('./assets/img/06.png');
+ 
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 50;
+  
 }
 .banner .tagline {
   font-weight: 700;
@@ -258,9 +259,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  
 }
 .banner p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -305,12 +307,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
-.housekeeping {
+.skill {
   padding: 0 0 50px 0;
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: linear-gradient(90.21deg, #FF4066 -5.91%, #FFF16A 111.58%);;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -321,7 +323,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -348,7 +350,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: #ffffff1a;
+  background-color: linear-gradient(90.21deg, #FF4066 -5.91%, #FFF16A 111.58%);
   
 }
 .project h2 {
@@ -357,7 +359,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -369,7 +371,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: #ffffff1a;
+  background-color:linear-gradient(90.21deg, #FF4066 -5.91%, #FFF16A 111.58%);
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -479,7 +481,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .tentative {
   padding: 80px 0;
   position: relative;
-  background-color: #ffffff1a;
+  /*background: linear-gradient(80.21deg, #000000 -5.91%, #000000 111.58%);*/
+  background-image: url('./assets/img/color-sharp.png');
+  background-repeat:repeat-x;
+
   
 }
 .tentative h2 {
@@ -605,7 +610,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   /*background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);*/
   background:linear-gradient(90.21deg, #FF4066 -5.91%, #FFF16A 111.58%);
-  padding: 60px 0 200px 0;
+  /*background-image: url('./assets/img/color-sharp.png');*/
+  background-repeat: no-repeat;
+  padding: 50px 5px 100px 10px;
 }
 .contact img {
   width: 50%;
@@ -676,7 +683,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 50px 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/logo-bear.png";
+import contactImg from "../assets/img/bear-8.png";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -95,19 +95,22 @@ export const Location = () => {
                     <b>Important Notes:</b>
                     <p>Night route :</p>
                     <p>Day route</p>
+                    <br></br>
+                    <br></br>
 
                     <h6>Feel free to reach out to :</h6>
                     
                     <Col size={12} sm={12} className="px-1">
                     <div className="social-icon">         
                       <figcaption><a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Faridz" /></a> Faridz</figcaption>
-
-                      <figcaption><a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a> Sharil</figcaption>
+                      <figcaption><a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a> Sharil</figcaption>                     
                       </div>
+                      
                       </Col>                   
                     
                     </Col>
                   </Row>
+                  
                 </form>
               </div>}
             </TrackVisibility>

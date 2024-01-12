@@ -9,12 +9,11 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
+
         <Row className="align-items-center">
           
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
-          </Col>
           <Col size={12} sm={12} className="text-center text-sm-end">
+          <p> Feel free to reach out to any of us! We'd be happy to assists!</p>
             <Container>
             <div className="social-icon">
               
@@ -28,10 +27,16 @@ export const Footer = () => {
               
             </div>
             </Container>
-            <p>Nabilah Mohd Akhir (●'◡'●)</p>
           </Col>
+          
         </Row>
+        <Row className="align-items-center">
+        <Col size={12} sm={12} className="text-center text-sm-center">
+          <p> <em>Nabilah Mohd Akhir (●'◡'●)</em></p>
+          </Col>
+          </Row>
       </Container>
+      
     </footer>
   )
 }

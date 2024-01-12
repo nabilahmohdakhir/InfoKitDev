@@ -6,9 +6,8 @@ import carpool from "../assets/img/carpool.png";
 import solo from "../assets/img/solo driver.png";
 import buffet from "../assets/img/buffet.png";
 import bbq from "../assets/img/BBQ.png";
-//import colorSharp2 from "../assets/img/color-sharp2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-
+import colorSharp2 from "../assets/img/color-sharp.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -89,10 +88,16 @@ export const Travel = () => {
 
                       <Row >
                       
-                        <p><b>Check In</b></p>
-                        <p>Check-in fiesta begins at <b>3 PM on January 19, 2023</b>, or whenever rooms are ready. Seek out the representative in charge for your key—it's initiation time!</p>
-                        <p><b>Check Out</b></p>
-                        <p>Check-out by <b>12 PM on January 21, 2023</b>. Avoid fashionably late exits—any extra costs are on the late crew. Each room is tailored for two adults, and our committee members are there for your queries.</p>
+                        {
+                          projects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
                         
                       </Row>
                     </Tab.Pane>
@@ -141,6 +146,7 @@ export const Travel = () => {
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
+     
     </section>
   )
 }
