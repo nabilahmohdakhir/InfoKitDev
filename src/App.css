@@ -323,13 +323,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .housekeeping h2 {
 	font-size: 45px;
 	font-weight: 700;
+
 }
+
+
+
 .housekeeping p {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 20px 10px 75px 20px;
+    /*margin: 14px 0 75px 0;*/
+    justify-content: center;
+      text-justify: distribute;
 }
 .housekeeping-slider {
   width: 100%;
@@ -501,7 +508,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .tentative .nav.nav-pills {
   width: 72%;
@@ -509,6 +518,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50px;
   background-color: #ffffff1a;
   overflow: hidden;
+  
 }
 .tentative .nav.nav-pills .nav-item {
   width: 33.33333%; 

@@ -12,7 +12,7 @@ export const Footer = () => {
 
         <Row className="align-items-center">
           
-          <Col size={12} sm={12} className="text-center text-sm-end">
+          <Col size={12} sm={12} className="text-left text-sm-left">
           <p> If you have any questions, feel free to reach out!</p>
           <p>Clicking any of these links is like a random joke generator - you never know who you'll get to contact with! 😂</p>
             <Container>
@@ -33,8 +33,8 @@ export const Footer = () => {
         </Row>
         <Row className="align-items-center">
         <Col size={12} sm={12} className="text-center text-sm-center">
-          <p> <em>Nabilah Mohd Akhir 🩷 (✿◕‿◕✿)</em></p>
-          <p> src ="" <em>Github Source Code //disabled</em></p>
+          <p> <em>Nabilah Mohd Akhir (●'◡'●)</em></p>
+          <p> <em>Github Source Code //disabled</em></p>
           </Col>
           </Row>
       </Container>

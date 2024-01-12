@@ -127,6 +127,7 @@ export const Highlights = () => {
                         <p>But hey, if you're riding solo and thinking, "Who's gonna be my roomie?" – no sweat! Just shoot a message to the committee, and they'll play matchmaker for you. Easy-peasy, right? 🤜🤛</p>
 
                         <p>If you've got a roomate, just give the committee the deets on your buddy. That way, we can figure out who's flying solo and pair them up with someone in need of a partner!</p>
+                        <p></p>
                       </Row>
                     </Tab.Pane>
                   </Tab.Content>

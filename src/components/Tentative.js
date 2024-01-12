@@ -66,9 +66,9 @@ export const Tentative = () => {
       id: 7,
       date: '1700',
       title: 'Outdoor Activities',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:['ATV Janda Baik / Paintball : SWAT Paintball Janda Baik'],
       outfit:'Sports',
-      description: [<li>ATV (ATV Janda Baik) : Temuan & Kanaq </li>,<li>Paintball (SWAT Paintball Janda Baik) : Jah-Hut VS Senoi</li>]
+      description: [<li>ATV: Temuan & Kanaq </li>,<li>Paintball : Jah-Hut VS Senoi</li>]
     },
     {
       id: 8,
@@ -103,7 +103,7 @@ export const Tentative = () => {
       id: 2,
       date: '0900',
       title: 'Outdoor Activities',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'ATV Janda Baik / Paintball : SWAT Paintball Janda Baik',
       outfit:'Sports',
       description: [<li>ATV : Temuan & Kanaq </li>,<li>Paintball : Jah-Hut & Senoi</li>]
       
@@ -112,7 +112,7 @@ export const Tentative = () => {
       id: 3,
       date: '0900',
       title: 'Indoor Activities',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
       description: [<li>e-Sports: Tribe 3 & 4 </li>]
       
@@ -121,7 +121,7 @@ export const Tentative = () => {
       id: 4,
       date: '1100',
       title: 'Outdoor Activities',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'ATV Janda Baik / Paintball : SWAT Paintball Janda Baik',
       outfit:'Sports',
       description: [<li>ATV : Tribe 3 & 4 </li>,<li>Paintball : Tribe 1 & 2</li>]
       
@@ -130,7 +130,7 @@ export const Tentative = () => {
       id: 5,
       date: '1100',
       title: 'Indoor Activities',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
       description: [<li>e-Sports: Tribe 3 & 4 </li>]
       
@@ -148,7 +148,7 @@ export const Tentative = () => {
       id: 6,
       date: '1500',
       title: 'Goal Setting',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Casual',
       description: []
       
@@ -166,7 +166,7 @@ export const Tentative = () => {
       id: 6,
       date: '2000',
       title: 'Tribe Recognition & Staff Dinner',
-      location:'Cherengin Hills Convention & Spa Resort',
+      location:'Ballroom, Cherengin Hills Convention & Spa Resort',
       outfit:'Earth Colour',
       description: [<li>Lucky Draw 🔥</li>]
       
@@ -183,6 +183,7 @@ export const Tentative = () => {
       title: 'Breakfast',
       location:'Cherengin Hills Convention & Spa Resort',
       outfit:'Casual'      ,
+      description:'Indoor cafe'
     },
     {
       id: 2,
