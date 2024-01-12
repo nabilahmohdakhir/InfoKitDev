@@ -33,10 +33,10 @@ export const Housekeeping = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="housekeeping-bx wow zoomIn">
                         <h2>Housekeeping Highlights</h2>
                         <p>Hey Team, just a heads up to keep things spick and span! Here's the lowdown on our housekeeping game plan</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme housekeeping-slider">
                             <div className="item">
                                 
                                 <h5>Hygiene Heroes</h5>
