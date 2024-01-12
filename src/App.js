@@ -12,6 +12,7 @@ import {Highlights} from "./components/Travel"
 
 import { Footer } from "./components/Footer";
 
+
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
 
       <Location/>
       <Footer />
+     
     </div>
   );
 }
