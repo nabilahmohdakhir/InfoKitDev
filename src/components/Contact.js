@@ -112,12 +112,18 @@ export const Location = () => {
                     
                     <Col size={12} sm={12} className="px-1">
                     <div className="social-icon">  
-                      <figcaption><a href="#"><img src={navIcon1} alt="Deivina" /></a> Deivina</figcaption> 
+                      <li>Deivina</li>
+                      <li>Farah Hani</li>
+                      <li>Faridz</li>
+                      <li>Husaif</li>
+                      <li>Nabilah (Bel)</li>
+                      <li>Shahril Rafi</li>
+                      {/*<figcaption><a href="#"><img src={navIcon1} alt="Deivina" /></a> Deivina</figcaption> 
                       <figcaption><a href="#"><img src={navIcon1} alt="Farah Hani" /></a>Farah Hani</figcaption>       
                       <figcaption><a href="#"><img src={navIcon1} alt="Faridz" /></a> Faridz</figcaption>
                       <figcaption><a href="#"><img src={navIcon1} alt="Husaif" /></a> Husaif</figcaption>  
                       <figcaption><a href="#"><img src={navIcon1} alt="Nabilah" /></a> Nabilah (Bel)</figcaption>
-                      <figcaption><a href="#"><img src={navIcon1} alt="Shahril" /></a> Shahril Rafi</figcaption>                     
+            <figcaption><a href="#"><img src={navIcon1} alt="Shahril" /></a> Shahril Rafi</figcaption>    */}                 
                       </div>
                       
                       </Col>                   
