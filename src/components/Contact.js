@@ -84,7 +84,7 @@ export const Location = () => {
                       <a href="https://maps.app.goo.gl/F5PbUvcEQKkvduBE9?g_st=ic"><img src={gmapIcon1} alt="gmap" /></a>
 
                       <br></br>
-                      <p><b>Suggested Route Plan </b> : Balai Polis Bukit Tinggi</p>
+                      <p><b>Suggested Route Plan</b> : Balai Polis Bukit Tinggi</p>
                       <a href="https://www.waze.com/ms/live-map/directions/balai-polis-bukit-tinggi-jalan-bukit-tinggi-bentong?to=place.w.66715681.667287887.1128428"><img src={wazeIcon1} alt="Waze" /></a>
                       <a href="https://www.google.com/maps/dir/3.151897,101.692904/balai+polis+bukit+tinggi/@3.2534793,101.5832894,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x31cc170400000001:0x6ccfed2462f9fa9a!2m2!1d101.8212522!2d3.3488132?entry=ttu"><img src={gmapIcon1} alt="gmap" /></a>
 
