@@ -68,7 +68,7 @@ export const Tentative = () => {
       title: 'Outdoor Activities',
       location:['ATV Janda Baik / Paintball : SWAT Paintball Janda Baik'],
       outfit:'Sports',
-      description: [<li>ATV: Temuan & Kanaq </li>,<li>Paintball : Jah-Hut VS Senoi</li>]
+      description: [<li>ATV: Jah Hut & Senoi </li>,<li>Paintball : Temuan VS Kanaq</li>]
     },
     {
       id: 8,
@@ -76,7 +76,7 @@ export const Tentative = () => {
       title: 'Indoor Activities',
       location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
-      description: "Board Games: Semelai VS Temoq"
+      description: "Board Games & e-Games: Semelai VS Temoq"
     },
     {
       id: 8,
@@ -105,16 +105,16 @@ export const Tentative = () => {
       title: 'Outdoor Activities',
       location:'ATV Janda Baik / Paintball : SWAT Paintball Janda Baik',
       outfit:'Sports',
-      description: [<li>ATV : Temuan & Kanaq </li>,<li>Paintball : Jah-Hut & Senoi</li>]
+      description: [<li>ATV : Temuan & Kanaq </li>,<li>Paintball : Semelai VS Temoq</li>]
       
-    },
+    }, 
     {
       id: 3,
       date: '0900',
       title: 'Indoor Activities',
       location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
-      description: [<li>e-Sports: Tribe 3 & 4 </li>]
+      description: [<li>Board Games & e-Sports: Jah Hut & Senoi </li>]
       
     },
     {
@@ -123,7 +123,7 @@ export const Tentative = () => {
       title: 'Outdoor Activities',
       location:'ATV Janda Baik / Paintball : SWAT Paintball Janda Baik',
       outfit:'Sports',
-      description: [<li>ATV : Tribe 3 & 4 </li>,<li>Paintball : Tribe 1 & 2</li>]
+      description: [<li>ATV : Semelai & Temoq </li>,<li>Paintball : Juh Hut VS Senoi</li>]
       
     },
     {
@@ -132,7 +132,7 @@ export const Tentative = () => {
       title: 'Indoor Activities',
       location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
-      description: [<li>e-Sports: Tribe 3 & 4 </li>]
+      description: [<li>Board Games & e-Sports: Temuan VS Kanaq </li>]
       
     },
     {

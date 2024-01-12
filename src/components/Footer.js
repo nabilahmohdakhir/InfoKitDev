@@ -18,12 +18,12 @@ export const Footer = () => {
             <Container>
             <div className="social-icon">
               
-              <a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a>
-              <a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Hani" /></a>
-              <a href="https://wa.link/ryipri"><img src={navIcon1} alt="Bel" /></a>
-              <a href="https://wa.link/q73cmp"><img src={navIcon1} alt="Husaif" /></a>
-              <a href="https://wa.link/d4rpwj"><img src={navIcon1} alt="Deveina" /></a>
-              <a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Faridz" /></a>
+              <a href="#"><img src={navIcon1} alt="Shahril" /></a>
+              <a href="#"><img src={navIcon1} alt="Hani" /></a>
+              <a href="#"><img src={navIcon1} alt="Bel" /></a>
+              <a href="#"><img src={navIcon1} alt="Husaif" /></a>
+              <a href="#"><img src={navIcon1} alt="Deveina" /></a>
+              <a href="#"><img src={navIcon1} alt="Faridz" /></a>
 
               
             </div>

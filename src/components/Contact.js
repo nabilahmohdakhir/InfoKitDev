@@ -111,9 +111,13 @@ export const Location = () => {
                     <h6>If you have any questions, please get in touch with :</h6>
                     
                     <Col size={12} sm={12} className="px-1">
-                    <div className="social-icon">         
-                      <figcaption><a href="https://wa.link/1p5an7"><img src={navIcon1} alt="Faridz" /></a> Faridz</figcaption>
-                      <figcaption><a href="https://wa.link/gxhgcl"><img src={navIcon1} alt="Sharil" /></a> Sharil</figcaption>                     
+                    <div className="social-icon">  
+                      <figcaption><a href="#"><img src={navIcon1} alt="Deivina" /></a> Deivina</figcaption> 
+                      <figcaption><a href="#"><img src={navIcon1} alt="Farah Hani" /></a>Farah Hani</figcaption>       
+                      <figcaption><a href="#"><img src={navIcon1} alt="Faridz" /></a> Faridz</figcaption>
+                      <figcaption><a href="#"><img src={navIcon1} alt="Husaif" /></a> Husaif</figcaption>  
+                      <figcaption><a href="#"><img src={navIcon1} alt="Nabilah" /></a> Nabilah (Bel)</figcaption>
+                      <figcaption><a href="#"><img src={navIcon1} alt="Shahril" /></a> Shahril Rafi</figcaption>                     
                       </div>
                       
                       </Col>                   
