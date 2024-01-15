@@ -50,7 +50,7 @@ export const Highlights = () => {
     },
     {
       title:"BBQ Dinner",
-      description: "Enjoy your BBQ Dinner on 20 Jan! Head over to Cafe XXXXX for some seriously tasty eats and good vibes. Let's grub and have a blast! 🍔🎉",
+      description: "Enjoy your BBQ Dinner on 19 Jan! Head over to Cafe XXXXX for some seriously tasty eats and good vibes. Let's grub and have a blast! 🍔🎉",
       imgUrl: bbq,
     }
   ];
