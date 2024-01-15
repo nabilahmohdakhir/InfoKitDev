@@ -115,7 +115,7 @@ export const Highlights = () => {
                         <p>Get ready to feast! All your meals are at the hotel café—breakfast, lunch, and dinner. Buffet style, because who doesn’t love a foodie party?</p>
                         
                         <p><b>BBQ Dinner</b></p>
-                        <p>Enjoy your BBQ Dinner on 20 Jan! Head over to BBQ Lounge for some serious tasty eats and good vibes. Let's grub and have a blast! 🍔🎉</p>
+                        <p>Enjoy your BBQ Dinner on 19 Jan! Head over to BBQ Lounge for some serious tasty eats and good vibes. Let's grub and have a blast! 🍔🎉</p>
                         
                         
                       </Row>

@@ -1,4 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+// import PopupButton from './PopupButton'; // Adjust the path based on your project structure
+
 
 //import colorSharp2 from "../assets/img/color-sharp2.png";
 //import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -43,7 +45,7 @@ export const Tentative = () => {
       title: 'Activity',
       location:'National Museum, Orang Asli Crafts Museum  ',
       outfit:'Casual',
-      description: 'The main event is hanging out at the National Museum, Orang Asli Crafts Museum , but feel free to explore National Museum, and Malay World Ethnology Museum',
+      description: ['The main event is hanging out at the National Museum, Orang Asli Crafts Museum , but feel free to explore National Museum, and Malay World Ethnology Museum',<li>Tour and briefing of the Museum by curator</li>,<li>Orang Asli game for staff's exposure to the culture</li>]
       
     },
     {
@@ -68,7 +70,7 @@ export const Tentative = () => {
       title: 'Outdoor Activities',
       location:['ATV Janda Baik / Paintball : SWAT Paintball Janda Baik'],
       outfit:'Sports',
-      description: [<li>ATV: Jah Hut & Senoi </li>,<li>Paintball : Temuan VS Kanaq</li>]
+      description: [<li>ATV: Jah Hut & Senoi<ul><li>Up to 6 Pax Per Tribe</li><li>No competition, just riding in surrounding area</li><li>Takes roughly 2.5 hours (5KM)</li><li>Transportation provided by Vendor (4x4, Vans)</li><li>Double rider</li> </ul></li>,<li>Paintball : Temuan VS Kanaq<ul><li>Capture the flag style between tribe</li><li>Consists of 3 games (2 Tribe each)</li><li>Game will start based on agenda (1-1.5 Hours per game)</li><li>Transportation provided by Cherengin's (15 Minutes walking distance)</li></ul></li>]
     },
     {
       id: 8,
@@ -76,7 +78,21 @@ export const Tentative = () => {
       title: 'Indoor Activities',
       location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
-      description: "Board Games & e-Games: Semelai VS Temoq"
+      description: [
+        <li>Board Games & e-Games: Semelai VS Temoq 
+          <ul><li>Traditional & board games(2-4 Pax per Tribe) </li>
+            <ul>
+              <li>Competition between tribe, points noted</li>
+              <li>Congkak, Batu Seremban, Carrom, Board Games (e.g. Cluedo, Saboteur)</li>
+            </ul>
+            <li>E-Sport</li>
+              <ul>
+                <li>Nintendo Switch Console</li>
+                <li>Overcooked 2, Mario Kart, Mario Party</li>
+                <li>Points Noted</li>
+              </ul>
+          </ul>
+        </li>]
     },
     {
       id: 8,
@@ -206,7 +222,9 @@ export const Tentative = () => {
 
   return (
     <section className="tentative" id="tentative">
-      <Container>
+    
+    <Container>
+      
         <Row>
           <Col size={12}>
             <TrackVisibility>
