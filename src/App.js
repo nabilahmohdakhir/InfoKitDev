@@ -24,7 +24,7 @@ function App() {
       <br></br>
       
       <Highlights/>
-      <Tentative />
+       <Tentative />
       <Additionalcost/>
 
       <Location/>
