@@ -104,7 +104,7 @@ export const Highlights = () => {
                         <p>Cash alert! Carpool champs, get your driver to collect their RM 120 at check-in!</p>
                         
                         <p><b>Solo Driver</b></p>
-                        <p>You're not left out—you get your RM 130 too! Just keep it cool on the road; no subsidies for speeding tickets!</p>
+                        <p>You're not left out—you get your RM 120 too! Just keep it cool on the road; no subsidies for speeding tickets!</p>
                         
                       </Row>
                     </Tab.Pane>
