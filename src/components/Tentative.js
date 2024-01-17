@@ -1,5 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-// import PopupButton from './PopupButton'; // Adjust the path based on your project structure
+
+
+
 
 
 //import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -8,9 +10,14 @@ import 'animate.css';
 import React from 'react';
 import '../Timeline.css';
 import TrackVisibility from 'react-on-screen';
+import  { useState } from 'react';
 
 export const Tentative = () => {
 
+
+
+
+  
   const day1 = [
     {
       id: 1,
@@ -121,7 +128,7 @@ export const Tentative = () => {
       title: 'Outdoor Activities',
       location:'ATV Janda Baik / Paintball : SWAT Paintball Janda Baik',
       outfit:'Sports',
-      description: [<li>ATV : Temuan & Kanaq </li>,<li>Paintball : Semelai VS Temoq</li>]
+      description: [<li>ATV : Temuan & Kanaq <ul><li>Up to 6 Pax Per Tribe</li><li>No competition, just riding in surrounding area</li><li>Takes roughly 2.5 hours (5KM)</li><li>Transportation provided by Vendor (4x4, Vans)</li><li>Double rider</li> </ul></li>,<li>Paintball : Semelai VS Temoq<ul><li>Capture the flag style between tribe</li><li>Consists of 3 games (2 Tribe each)</li><li>Game will start based on agenda (1-1.5 Hours per game)</li><li>Transportation provided by Cherengin's (15 Minutes walking distance)</li></ul></li>]
       
     }, 
     {
@@ -161,8 +168,19 @@ export const Tentative = () => {
       
     },
     {
-      id: 6,
-      date: '1500',
+      id: 7,
+      date: '1430',
+      title: 'Culture Talk',
+      location:'Chermai, Cherengin Hills Convention & Spa Resort',
+      outfit:'Casual',
+      description: []
+      
+    },
+
+
+    {
+      id: 8,
+      date: '1600',
       title: 'Goal Setting',
       location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Casual',
@@ -170,7 +188,7 @@ export const Tentative = () => {
       
     },
     {
-      id: 6,
+      id: 9,
       date: '1900',
       title: 'Break',
       location:'Cherengin Hills Convention & Spa Resort',
@@ -179,7 +197,7 @@ export const Tentative = () => {
       
     },
     {
-      id: 6,
+      id: 10,
       date: '2000',
       title: 'Tribe Recognition & Staff Dinner',
       location:'Ballroom, Cherengin Hills Convention & Spa Resort',
@@ -201,14 +219,8 @@ export const Tentative = () => {
       outfit:'Casual'      ,
       description:'Indoor cafe'
     },
-    {
-      id: 2,
-      date: '0900',
-      title: 'Team Building Closing Ceremony & Culture Talk',
-      location:'Hall, Cherengin Hills Convention & Spa Resort',
-      outfit:'Casual',
-      description: '',
-    },
+   
+    
     {
       id: 3,
       date: '1200',
@@ -230,7 +242,7 @@ export const Tentative = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Tentative</h2>
+                <h2>Agenda</h2>
                 <p></p>
                 <Tab.Container id="tentative-tabs" defaultActiveKey="first">
 
@@ -260,6 +272,8 @@ export const Tentative = () => {
                             <p>Location: {event.location}</p>
                             <p>Outfit: {event.outfit}</p>
                             <p>Additional Info: {event.description}</p>
+
+                            
                           </div>
                         </div>
                       ))}
