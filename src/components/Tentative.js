@@ -73,15 +73,15 @@ export const Tentative = () => {
     },
     {
       id: 7,
-      date: '1700',
+      date: '1630',
       title: 'Outdoor Activities',
       location:['ATV Janda Baik / Paintball : SWAT Paintball Janda Baik'],
       outfit:'Sports',
-      description: [<li>ATV: Jah Hut & Senoi<ul><li>Up to 6 Pax Per Tribe</li><li>No competition, just riding in surrounding area</li><li>Takes roughly 2.5 hours (5KM)</li><li>Transportation provided by Vendor (4x4, Vans)</li><li>Double rider</li> </ul></li>,<li>Paintball : Temuan VS Kanaq<ul><li>Capture the flag style between tribe</li><li>Consists of 3 games (2 Tribe each)</li><li>Game will start based on agenda (1-1.5 Hours per game)</li><li>Transportation provided by Cherengin's (15 Minutes walking distance)</li></ul></li>]
+      description: [<li>ATV: Jah Hut & Senoi<ul><li>Up to 6 Pax Per Tribe</li><li>No competition, just riding in surrounding area</li><li>Takes roughly 1.5 hours (5KM)</li><li>Transportation provided by Vendor (meet at the lobby) (4x4, Vans)</li><li>Double rider</li> </ul></li>,<li>Paintball : Temuan VS Kanaq<ul><li>Capture the flag style between tribe</li><li>Consists of 3 games (2 Tribe each)</li><li>Game will start based on agenda (1-1.5 Hours per game)</li><li>Transportation provided by Cherengin's (15 Minutes walking distance)</li></ul></li>]
     },
     {
       id: 8,
-      date: '1700',
+      date: '1630',
       title: 'Indoor Activities',
       location:'Chermai, Cherengin Hills Convention & Spa Resort',
       outfit:'Sports',
